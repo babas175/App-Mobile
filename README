@@ -4,32 +4,31 @@ Esta aplicação é um explorador de usuários do GitHub, permitindo aos usuári
 
 Funcionalidades
 1. Buscar por um Usuário
-Endpoint: https://api.github.com/users/{username}
-Método: GET
-Descrição: Realiza uma busca por um usuário do GitHub, fornecendo detalhes como número de seguidores, número de seguidos, imagem do avatar, e-mail e bio.
+    Endpoint: https://api.github.com/users/{username}
+    Método: GET
+    Descrição: Realiza uma busca por um usuário do GitHub, fornecendo detalhes como número de seguidores, número de seguidos, imagem do avatar, e-mail e bio.
 2. Ver Detalhes do Usuário Buscado
-Detalhes:
-Número de Seguidores
-Número de Seguidos
-Imagem do Avatar
-E-mail
-Bio
+    Detalhes:
+    Número de Seguidores
+    Número de Seguidos
+    Imagem do Avatar
+    E-mail
+    Bio
 3. Ver Listagem dos Repositórios do Usuário Buscado
-Endpoint: https://api.github.com/users/{username}/repos
-Método: GET
-Descrição: Apresenta a listagem de repositórios do usuário buscado, ordenados pelo número decrescente de estrelas.
+    Endpoint: https://api.github.com/users/{username}/repos
+    Método: GET
+    Descrição: Apresenta a listagem de repositórios do usuário buscado, ordenados pelo número decrescente de estrelas.
 4. Ordenar Listagem dos Repositórios
-Descrição: Permite aos usuários alterar a ordem da listagem de repositórios, com a ordenação padrão sendo por número decrescente de estrelas.
+    Descrição: Permite aos usuários alterar a ordem da listagem de repositórios, com a ordenação padrão sendo por número decrescente de estrelas.
 5. Ver Detalhes de um Repositório
-Endpoint: https://api.github.com/repos/{full_name}
-Método: GET
-Descrição: Exibe detalhes específicos de um repositório, incluindo nome, descrição, número de estrelas, linguagem e um link externo para a página do repositório no GitHub.
-Recursos Técnicos
-Tecnologias Utilizadas:
+    Endpoint: https://api.github.com/repos/{full_name}
+    Método: GET
+    Descrição: Exibe detalhes específicos de um repositório, incluindo nome, descrição, número de estrelas, linguagem e um link externo para a página do repositório no GitHub.
+    Recursos Técnicos
+    Tecnologias Utilizadas:
 
-Frontend: React Native (ou tecnologia de escolha)
-Backend: Node.js (ou tecnologia de escolha)
-Banco de Dados: Não especificado (podendo ser um banco local ou solução temporária de armazenamento)
+-Frontend: React Native (ou tecnologia de escolha)
+-Backend: Node.js (ou tecnologia de escolha)
 Autenticação:
 
-A autenticação via token do GitHub pode ser necessária para acessar algumas dessas APIs. Certifique-se de implementar a autenticação apropriada.
+-A autenticação via token do GitHub pode ser necessária para acessar algumas dessas APIs. Certifique-se de implementar a autenticação apropriada.
